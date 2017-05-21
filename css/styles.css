@@ -2,8 +2,67 @@
 	padding-top: 70px;
 }
 
+body {
+  font-family: 'Droid Sans', sans-serif;
+      background-color: rgba(255, 164, 32, 1);
+      color: black;
+}
+
+
+
+body, html {
+    height: 100%;
+}
+.navbar{
+    background-color: rgba(225, 42, 32, 1);
+  background-image: none;
+  font-size: 13px;
+   border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+    text-transform: uppercase;
+  
+  clear:none;
+}
 .navbar.navbar-fixed-top {
-	background-color: #222;
+	background-color: rgba(0, 102, 51, 1);
+  background-image: none;
     border-color: #080808;
     box-shadow: 0 0 5px rgba(0,0,0,.8);
 }
+.navbar-brand{
+  font-size-adjust: 1.2; 
+}
+
+.navbox
+{
+	border:5px;
+	border-color: rgb(213, 223, 31);
+}
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("../images/banner3.jpg");
+
+    /* Set a specific height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; /*previously used cover */
+    clear:none;
+}
+
+
+.bg-image-2 {
+  background-image: url("../images/banner2.jpg");
+  min-height: 400px;
+
+   background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
