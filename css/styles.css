@@ -20,6 +20,15 @@ body {
 body, html {
 	height: 100%;
 }
+
+#image-text{
+	position: absolute;
+  z-index: 1;
+  top: 450px;
+  left: 100px;
+	color: rgba(225, 42, 32, .8);
+}
+
 .navbar {
 	background-color: rgba(22,25,37,1);
 	background-image: none;
@@ -41,14 +50,6 @@ body, html {
 .navbox {
 	border: 5px;
 	border-color: rgb(213, 223, 31);
-}
-
-#image-text{
-	position: absolute;
-  z-index: 1;
-  top: 450px;
-  left: 100px;
-	color: rgba(225, 42, 32, .8);
 }
 
 .parallax {
@@ -108,6 +109,11 @@ body, html {
   .collapse.in{
       display:block !important;
   }
+}
+
+#logos_180{
+ margin-left: 0;
+ margin-right: 0;
 }
 
 .glyphicon{
