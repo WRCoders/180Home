@@ -21,12 +21,12 @@ body, html {
 	height: 100%;
 }
 
-#image-text{
-	position: absolute;
+.logo_image{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
   z-index: 1;
-  top: 450px;
-  left: 100px;
-	color: rgba(225, 42, 32, .8);
 }
 
 .navbar {
