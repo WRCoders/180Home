@@ -127,3 +127,17 @@ body, html {
   height: 100%;
   width: auto;
 }
+
+.meetTheTeam-header {
+	margin-top: 80px;
+}
+
+#HeadShot{
+	margin: auto;
+	width: 30%;
+}
+
+#FamilyImage{
+	margin: 140px auto 0 auto;
+	width: 85%;
+}
