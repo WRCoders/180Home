@@ -119,3 +119,25 @@ body, html {
 .glyphicon{
 	color: #9d9d9d;
 }
+
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+
+.meetTheTeam-header {
+	margin-top: 80px;
+}
+
+#HeadShot{
+	margin: auto;
+	width: 30%;
+}
+
+#FamilyImage{
+	margin: 140px auto 0 auto;
+	width: 85%;
+}
